@@ -1,0 +1,251 @@
+{
+  "main": {
+    "id": "4a500ad98eb8c603",
+    "type": "split",
+    "children": [
+      {
+        "id": "15baff58795ee988",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e41311c23f38f98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-01-10.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-01-10"
+            }
+          },
+          {
+            "id": "635a37a3a51ca825",
+            "type": "leaf",
+            "state": {
+              "type": "big-calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Big Calendar"
+            }
+          },
+          {
+            "id": "28bfddc048d54b6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - Knowledge/Test1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Test1"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0e8554ca3517b247",
+    "type": "split",
+    "children": [
+      {
+        "id": "5ba537a5bf820698",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6af472d9c08d2c19",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "bfa27a76dfa57d85",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "[\"status\"]",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "204eb768e5759dbf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 295.5
+  },
+  "right": {
+    "id": "efed86a69df2b893",
+    "type": "split",
+    "children": [
+      {
+        "id": "e69a9b54416c95c8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4e151d6d5b73e2af",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "99 - Meta/_templates/_enums/topics.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for topics"
+            }
+          },
+          {
+            "id": "1a151756866a6b56",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "99 - Meta/_templates/_enums/topics.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from topics"
+            }
+          },
+          {
+            "id": "7acd1fa2bf79aab2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d8f4885922902490",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "344974ef071fc3c8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "99 - Meta/_templates/_enums/topics.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of topics"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "big-calendar:Big Calendar": false
+    }
+  },
+  "active": "6af472d9c08d2c19",
+  "lastOpenFiles": [
+    "03 - Knowledge/Untitled",
+    "2026-01-11.md",
+    "03 - Knowledge/Test1.md",
+    "2026-01-10.md",
+    "02 - Projects/teacher_subject_scheduler/Architecture-Backend.md",
+    "02 - Projects/teacher_subject_scheduler/Architecture-Frontend.md",
+    "02 - Projects/teacher_subject_scheduler/Teacher subject scheduler.md",
+    "99 - Meta/_templates/_enums/topics.md",
+    "02 - Projects/teacher_subject_scheduler",
+    "02 - Projects/Untitled.md",
+    "03 - Knowledge/Black cats.md",
+    "99 - Meta/_templates/_enums/types.md",
+    "99 - Meta/_templates/knowledge.tpl.md",
+    "03 - Knowledge/white cats.md",
+    "03 - Knowledge/Orange cats.md",
+    "03 - Knowledge/test 3.md",
+    "03 - Knowledge/test.md",
+    "03 - Knowledge/asd.md",
+    "03 - Knowledge/a.md",
+    "03 - Knowledge/TEst2.md",
+    "03 - Knowledge/Untitled 11.md",
+    "03 - Knowledge/Test 1.md",
+    "03 - Knowledge/Untitled 10.md",
+    "03 - Knowledge/Untitled 9.md",
+    "03 - Knowledge/Untitled 8.md",
+    "03 - Knowledge/Untitled 7.md",
+    "03 - Knowledge/Untitled 6.md",
+    "99 - Meta/_templates/_scripts/enums.js~",
+    "99 - Meta/_templates/_scripts/enums.js",
+    "99 - Meta/_templates/_scripts",
+    "Untitled.base",
+    "99 - Meta/_templates/_enums",
+    "99 - Meta/bases/Untitled.base",
+    "99 - Meta/bases",
+    "99 - Meta/_templates"
+  ]
+}

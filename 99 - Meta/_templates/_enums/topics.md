@@ -1,0 +1,6 @@
+- aws
+- hypertrophy
+- k8s
+- macros
+- misc
+- obsidian
