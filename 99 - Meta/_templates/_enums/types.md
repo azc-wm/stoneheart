@@ -1,7 +1,9 @@
 - concept
+- topic
 - idea
 - project
-- program
 - diet
 - recipe
 - resource
+- conclusion
+- tips&tricks

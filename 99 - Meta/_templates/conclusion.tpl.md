@@ -2,39 +2,36 @@
 const Enums = tp.user.enums;
 
 // --- Title ---
-const title = (await tp.system.prompt("Title"))?.trim();
+const title = (await tp.system.prompt("Conclusion title (the conclusion itself)"))?.trim();
 if (title) await tp.file.rename(title);
 
 // --- Enum paths ---
 const DOMAINS = "99 - Meta/_templates/_enums/domains.md";
 const TYPES   = "99 - Meta/_templates/_enums/types.md";
 const TOPICS  = "99 - Meta/_templates/_enums/topics.md";
-const TOPICS_FOLDER = "03 - Knowledge/topics";
 
 // --- Load enums ---
 const domains = await Enums.readEnumList(app, DOMAINS);
 const types   = await Enums.readEnumList(app, TYPES);
 let topics    = await Enums.readEnumList(app, TOPICS);
 
-// --- Single-select fields ---
+// --- Core metadata ---
 const domain = await tp.system.suggester(domains, domains);
 const type   = await tp.system.suggester(types, types);
 
 // --- Topics (multi-select, ESC to finish) ---
 let selectedTopics = [];
-let selecting = true;
 
-while (selecting) {
+while (true) {
   const remaining = topics.filter(t => !selectedTopics.includes(t));
 
   const choice = await tp.system.suggester(
     ["(new topic)", ...remaining],
     ["__new__", ...remaining],
     false,
-    `[Select topics – ESC to finish]\n\nSelected: ${selectedTopics.join(", ")}`
+    `[Select topics – ESC to finish]\nSelected: ${selectedTopics.join(", ")}`
   );
 
-  // ESC pressed
   if (!choice) break;
 
   if (choice === "__new__") {
@@ -44,20 +41,6 @@ while (selecting) {
     if (!topics.includes(newTopic)) {
       await Enums.appendEnum(app, TOPICS, newTopic);
       topics.push(newTopic);
-      
-      const topicPath = `${TOPICS_FOLDER}/${newTopic}.md`;
-      if (!await app.vault.adapter.exists(topicPath)) {
-	      await app.vault.create(
-		      topicPath,
-			  `---
-			  type: topic
-			  status: evergreen
-			  ---
-			  # ${newTopic}
-			  > Fill this later
-		      `
-		      )
-      }
     }
 
     if (!selectedTopics.includes(newTopic)) {
@@ -70,32 +53,49 @@ while (selecting) {
   }
 }
 
-// Enforce at least one topic
 if (selectedTopics.length === 0) selectedTopics = ["misc"];
 
-// --- Claim (required) ---
-let claim = "";
-while (!claim) {
-  claim = (await tp.system.prompt(
-    "Claim (one clear, falsifiable sentence)"
-  ) ?? "")?.trim();
+// --- Conclusion (required) ---
+let conclusion = "";
+while (!conclusion) {
+  conclusion = (await tp.system.prompt(
+    "Conclusion (what will you do / believe differently going forward?)"
+  ))?.trim();
 }
-%>---
+
+// --- Optional provenance ---
+const derivedFrom = (await tp.system.prompt(
+  "Derived from (optional – link to process / incident / project)"
+))?.trim();
+
+const today = tp.date.now("YYYY-MM-DD");
+%>
+---
+type: conclusion
 domain: <% JSON.stringify(domain) %>
-type: <% JSON.stringify(type) %>
-topics: <% JSON.stringify(selectedTopics.map(t => `[[${t}]]`))%>
-status: evergreen
+category: <% JSON.stringify(type) %>
+topics: <% JSON.stringify(selectedTopics) %>
+status: active
+date: <% today %>
+derived_from: <% derivedFrom ? JSON.stringify(derivedFrom) : "[]" %>
 ---
-## Claim
+## Conclusion
+> <% conclusion %>
 
-> <% claim %>
+## Context
+What work, process, or situation led to this conclusion?
 
----
-## Explanation
+## Evidence / Signals
+What observations, incidents, metrics, or experiences support it?
 
----
-## Implications
+## Trade-offs
+What this optimizes for — and what it explicitly sacrifices.
 
----
+## Consequences
+What changes going forward because of this conclusion?
+
+## Review triggers
+When should this conclusion be questioned or revisited?
+
 ## Related
 - [[ ]]

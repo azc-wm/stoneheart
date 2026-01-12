@@ -1,6 +1,12 @@
+- architechture
+- autoscaling
 - aws
+- cost-optimization
 - hypertrophy
 - k8s
 - macros
 - misc
 - obsidian
+- performance
+- reliability
+- system-design

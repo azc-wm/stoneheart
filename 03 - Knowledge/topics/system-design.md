@@ -1,15 +1,21 @@
 ---
 domain: dev
-type: concept
-topic: aws
+type: topic
+topics:
+  - architechture
+  - autoscaling
 status: evergreen
 ---
 ## Claim
-> Aws IAM role must be claimed by soemone
 
+> system design
+
+---
 ## Explanation
 
+---
 ## Implications
 
+---
 ## Related
 - [[ ]]
