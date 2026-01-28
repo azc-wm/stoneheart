@@ -1,5 +1,7 @@
 - concept
+- definition
 - topic
+- intent
 - idea
 - project
 - diet

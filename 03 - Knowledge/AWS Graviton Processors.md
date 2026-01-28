@@ -2,7 +2,7 @@
 domain: dev
 type: concept
 topics:
-  - "[[architechture]]"
+  - "[[03 - Knowledge/topics/architecture]]"
   - "[[aws]]"
   - "[[k8s]]"
   - "[[cost-optimization]]"

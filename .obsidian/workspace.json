@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a8778a8e76bb09fa",
+            "id": "8f0f014dc19d1e74",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Knowledge/topics/aws.md",
+                "file": "20 - Emburse/00 _ ACTION ITEMS.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "aws"
+              "title": "00 _ ACTION ITEMS"
             }
           }
         ]
@@ -170,7 +170,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,43 +186,53 @@
       "big-calendar:Big Calendar": false
     }
   },
-  "active": "a8778a8e76bb09fa",
+  "active": "8f0f014dc19d1e74",
   "lastOpenFiles": [
+    "03 - Knowledge/Karpenter.md",
+    "03 - Knowledge/Gradle Daemon.md",
+    "03 - Knowledge/Date Formats.md",
+    "03 - Knowledge/Data formats & parsing (JAVA).md",
+    "03 - Knowledge/Backpressure.md",
+    "03 - Knowledge/Daemon.md",
+    "01 - Daily/2026-01-27.md",
+    "03 - Knowledge/topics/architecture.md",
     "03 - Knowledge/topics/cost-optimization.md",
-    "03 - Knowledge/topics/autoscaling.md",
-    "03 - Knowledge/topics/architechture.md",
-    "03 - Knowledge/topics/aws.md",
-    "99 - Meta/_templates/_enums/types.md",
+    "03 - Knowledge/Java Terminal Cheatsheet.md",
+    "03 - Knowledge/Reactor Checkpoint.md",
+    "03 - Knowledge/Using kubectl with AWS.md",
+    "03 - Knowledge/Reactor.md",
+    "03 - Knowledge/Reactive Streams.md",
+    "03 - Knowledge/Exception Wrapping and Root Cause Analysis.md",
     "03 - Knowledge/AWS Graviton Processors.md",
-    "02 - Projects/teacher_subject_scheduler/Teacher subject scheduler.md",
-    "02 - Projects/teacher_subject_scheduler/Architecture-Frontend.md",
+    "03 - Knowledge/Something.md",
     "02 - Projects/teacher_subject_scheduler/Architecture-Backend.md",
-    "10 - Training/Full body routine.md",
+    "20 - Emburse/Tasks/INV-9702 invoice-app Migrate to AWS role-based authentication.md",
+    "20 - Emburse/Tasks/INV-9834 InvoiceAPI - PUT Function - required RequestFilter date not honoring the timestamp, not returning the Invoices data.md",
+    "20 - Emburse/Tasks/INV-9702 Strategies to fix missing create topic permission.md",
+    "20 - Emburse/Tasks/INV-9871/INV-9871 Refactor Sovos WebClient auth to use Spring OAuth and RestTemplate.md",
+    "20 - Emburse/00 _ ACTION ITEMS.md",
+    "20 - Emburse/How to check IAM roles locally.md",
+    "03 - Knowledge/IAM.md",
+    "03 - Knowledge/WebClient Exceptions.md",
+    "99 - Meta/attachments/Pasted image 20260122121532.png",
+    "99 - Meta/attachments",
+    "20 - Emburse/Tasks/INV-9871",
+    "99 - Meta/attachments/Pasted image 20260122121248.png",
+    "99 - Meta/attachments/Pasted image 20260116122950.png",
+    "99 - Meta/attachments/Captura de pantalla 2026-01-16 a las 12.28.54.png",
+    "99 - Meta/attachments/Captura de pantalla 2026-01-16 a las 12.28.18.png",
+    "99 - Meta/attachments/Pasted image 20260116120018.png",
+    "99 - Meta/attachments/Pasted image 20260116115123.png",
+    "99 - Meta/attachments/Pasted image 20260116115120.png",
+    "99 - Meta/attachments/Pasted image 20260116112141.png",
+    "99 - Meta/attachments/Pasted image 20260116110509.png",
+    "20 - Emburse/Tasks",
+    "20 - Emburse",
     "10 - Training",
-    "03 - Knowledge/topics/k8s.md",
-    "03 - Knowledge/test.md",
-    "03 - Knowledge/topics/performance.md",
-    "99 - Meta/_templates/conclusion.tpl.md",
-    "99 - Meta/_templates/knowledge.tpl.md",
-    "03 - Knowledge/dgssdg.md",
-    "03 - Knowledge/sadfa.md",
-    "03 - Knowledge/topics/system-design.md",
-    "03 - Knowledge/asdfasdfasf.md",
-    "03 - Knowledge/adfff.md",
-    "03 - Knowledge/asdfsdfasdfasdf.md",
-    "architechture]],[[autoscaling]],[[aws]],[[hypertrophy.md",
     "04 - Conclusions",
-    "03 - Knowledge/topics/reliability.md",
-    "99 - Meta/_templates/_enums/topics.md",
     "03 - Knowledge/topics",
-    "03 - Knowledge/asdf.md",
-    "03 - Knowledge/Test 2.md",
     "Untitled.base",
     "Untitled 1.base",
-    "01 - Daily",
-    "03 - Knowledge/Untitled",
-    "02 - Projects/teacher_subject_scheduler",
-    "99 - Meta/_templates/_scripts/enums.js~",
-    "99 - Meta/_templates/_scripts/enums.js"
+    "01 - Daily"
   ]
 }

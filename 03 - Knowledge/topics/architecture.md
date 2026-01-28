@@ -2,7 +2,7 @@
 domain: dev
 type: topic
 topics:
-  - system-design
+  - "[[system-design]]"
 status: evergreen
 ---
 ## Claim
